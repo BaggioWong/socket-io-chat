@@ -1,0 +1,75 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body { 
+	font: 13px "Open Sans", Helvetica, Arial, sans-serif; 
+}
+
+#iphone-six-plus-container {
+	width: 414px;
+	height: 628px;
+	padding: none;
+	margin: auto;
+	border: 1px solid rgb(240, 240, 240);
+	position: relative;
+}
+
+.chatapp-form { 
+	background: #C5D9EF; 
+	padding: 3px; 
+
+	position: absolute;
+	bottom: 0; 
+
+	width: 100%; 
+}
+
+.chatapp-input { 
+	border: 0; 
+	padding: 10px; 
+	width: 100%; 
+	margin-right: .5%; 
+	outline: none;
+}
+
+.chatapp-button { 
+	width: 9%; 
+	background: rgb(130, 224, 255); 
+	border: none; 
+	padding: 10px; 
+
+	display:none;
+}
+
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#messages li { 
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd) { 
+	background: #eee; 
+}
+
+#new-user, #all-users {
+	text-align: center;
+}
+
+#new-user {
+	padding: 10px;
+}
+
+#all-users {
+	padding: 0px 0px 5px 0px;
+}
+
+#user-typing {
+	padding: 5px 10px;
+}

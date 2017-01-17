@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- load socket.io-client -->
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootbox.min.js"></script>
+    <script src = "./js/client.js"></script>
+</head>
+<body>
+    <div id = "iphone-six-plus-container">
+        <div id = "new-user"></div>
+        <div id = "all-users"></div>
+        <ul id = "messages"></ul>
+        <div id = "user-typing"></div>
+        
+        <form id = "chat-form" action="" class = "chatapp-form">
+            <input id="m" autocomplete="off" class = "chatapp-input" tabindex = "-1"/><button class = "chatapp-button">Send</button>
+        </form>
+    </div>
+</body>
+</html>
